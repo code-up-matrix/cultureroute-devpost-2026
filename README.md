@@ -27,3 +27,7 @@ Source is prepared and independently verified as recorded in verification.json w
 ## Attribution
 
 MIT-licensed. Product implementation was prepared with ChatGPT/Codex assistance on 27 October 2026. Shared foundation: code-up-matrix/axios-fx-compliance-agent, commit 4093cf1. The authored product and shared infrastructure must be disclosed accurately in the event submission.
+
+## Live database verification
+
+16 live assertions passed on 27 October 2026: protected workspace login, database history isolation, expired-record cleanup and logout. The sponsor route correctly reports its missing credential; real provider output is still pending. See [backend evidence](docs/BACKEND-VERIFICATION.md) and [machine-readable results](live-backend-verification.json). Database credentials are stored in Vercel's sensitive environment variables.
