@@ -1,0 +1,13 @@
+{
+  "name": "CultureRoute",
+  "requiredEnv": [
+    "DATABASE_URL",
+    "SESSION_SECRET",
+    "APP_ORIGIN",
+    "OPERATOR_ACCESS_CODE",
+    "JUDGE_ACCESS_CODE",
+    "CRON_SECRET",
+    "QLOO_API_KEY"
+  ],
+  "event": "https://qloo.devpost.com/"
+}

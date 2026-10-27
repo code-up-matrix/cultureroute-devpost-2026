@@ -1,0 +1,131 @@
+npm warn Unknown env config "http-proxy". This will stop working in the next major version of npm.
+
+> cultureroute-devpost-2026@1.0.0 check
+> npm run typecheck && npm test && npm run build:eve && npm run build
+
+npm warn Unknown env config "http-proxy". This will stop working in the next major version of npm.
+
+> cultureroute-devpost-2026@1.0.0 typecheck
+> tsc --noEmit -p tsconfig.json
+
+npm warn Unknown env config "http-proxy". This will stop working in the next major version of npm.
+
+> cultureroute-devpost-2026@1.0.0 test
+> vitest run
+
+
+ RUN  v5.0.5 /tmp/devpost-event-repositories/cultureroute
+
+
+ Test Files  3 passed (3)
+      Tests  5 passed (5)
+   Start at  10:56:32
+   Duration  2.02s (tests 57%, import 37%, transform 5%)
+
+npm warn Unknown env config "http-proxy". This will stop working in the next major version of npm.
+
+> cultureroute-devpost-2026@1.0.0 build:eve
+> eve build
+
+eve: initializing 1 sandbox template...
+eve: sandbox template "root" (default): DefaultSandbox has no sandbox provider for this build: it did not run on Vercel, no Docker daemon was reachable, and production builds do not fall back to just-bash. Start Docker and rebuild, deploy to Vercel, or select a provider explicitly in your sandbox module, such as agent/sandbox/sandbox.ts.
+eve: initialized 1 sandbox template.
+[nitro] ✔ Generated public .eve/builds/mvqigpaa-15ae16ad-bcf6-402c-ae28-24944caeed3c/output/public
+[nitro] ℹ Building server (builder: rolldown, preset: node-server, compatibility date: 2026-10-27)
+ℹ Generated .eve/builds/mvqigpaa-15ae16ad-bcf6-402c-ae28-24944caeed3c/output/nitro.json
+[nitro] ✔ Server built in 4634ms
+  ├─ .eve/builds/mvqigpaa-15ae16ad-bcf6-402c-ae28-24944caeed3c/output/server/_chunks/compiled-artifacts-instrumentation.mjs (632 B)
+  ├─ .eve/builds/mvqigpaa-15ae16ad-bcf6-402c-ae28-24944caeed3c/output/server/_chunks/node-server.mjs (11.6 MB)
+  ├─ .eve/builds/mvqigpaa-15ae16ad-bcf6-402c-ae28-24944caeed3c/output/server/_chunks/storage.mjs (1.39 kB)
+  ├─ .eve/builds/mvqigpaa-15ae16ad-bcf6-402c-ae28-24944caeed3c/output/server/_libs/_.mjs (835 B)
+  ├─ .eve/builds/mvqigpaa-15ae16ad-bcf6-402c-ae28-24944caeed3c/output/server/_libs/_10.mjs (499 B)
+  ├─ .eve/builds/mvqigpaa-15ae16ad-bcf6-402c-ae28-24944caeed3c/output/server/_libs/_11.mjs (236 B)
+  ├─ .eve/builds/mvqigpaa-15ae16ad-bcf6-402c-ae28-24944caeed3c/output/server/_libs/_12.mjs (235 B)
+  ├─ .eve/builds/mvqigpaa-15ae16ad-bcf6-402c-ae28-24944caeed3c/output/server/_libs/_13.mjs (275 B)
+  ├─ .eve/builds/mvqigpaa-15ae16ad-bcf6-402c-ae28-24944caeed3c/output/server/_libs/_14.mjs (345 B)
+  ├─ .eve/builds/mvqigpaa-15ae16ad-bcf6-402c-ae28-24944caeed3c/output/server/_libs/_15.mjs (262 B)
+  ├─ .eve/builds/mvqigpaa-15ae16ad-bcf6-402c-ae28-24944caeed3c/output/server/_libs/_16.mjs (267 B)
+  ├─ .eve/builds/mvqigpaa-15ae16ad-bcf6-402c-ae28-24944caeed3c/output/server/_libs/_17.mjs (256 B)
+  ├─ .eve/builds/mvqigpaa-15ae16ad-bcf6-402c-ae28-24944caeed3c/output/server/_libs/_18.mjs (266 B)
+  ├─ .eve/builds/mvqigpaa-15ae16ad-bcf6-402c-ae28-24944caeed3c/output/server/_libs/_19.mjs (243 B)
+  ├─ .eve/builds/mvqigpaa-15ae16ad-bcf6-402c-ae28-24944caeed3c/output/server/_libs/_2.mjs (313 B)
+  ├─ .eve/builds/mvqigpaa-15ae16ad-bcf6-402c-ae28-24944caeed3c/output/server/_libs/_20.mjs (243 B)
+  ├─ .eve/builds/mvqigpaa-15ae16ad-bcf6-402c-ae28-24944caeed3c/output/server/_libs/_21.mjs (241 B)
+  ├─ .eve/builds/mvqigpaa-15ae16ad-bcf6-402c-ae28-24944caeed3c/output/server/_libs/_22.mjs (241 B)
+  ├─ .eve/builds/mvqigpaa-15ae16ad-bcf6-402c-ae28-24944caeed3c/output/server/_libs/_23.mjs (241 B)
+  ├─ .eve/builds/mvqigpaa-15ae16ad-bcf6-402c-ae28-24944caeed3c/output/server/_libs/_24.mjs (243 B)
+  ├─ .eve/builds/mvqigpaa-15ae16ad-bcf6-402c-ae28-24944caeed3c/output/server/_libs/_25.mjs (253 B)
+  ├─ .eve/builds/mvqigpaa-15ae16ad-bcf6-402c-ae28-24944caeed3c/output/server/_libs/_26.mjs (244 B)
+  ├─ .eve/builds/mvqigpaa-15ae16ad-bcf6-402c-ae28-24944caeed3c/output/server/_libs/_27.mjs (263 B)
+  ├─ .eve/builds/mvqigpaa-15ae16ad-bcf6-402c-ae28-24944caeed3c/output/server/_libs/_28.mjs (260 B)
+  ├─ .eve/builds/mvqigpaa-15ae16ad-bcf6-402c-ae28-24944caeed3c/output/server/_libs/_29.mjs (255 B)
+  ├─ .eve/builds/mvqigpaa-15ae16ad-bcf6-402c-ae28-24944caeed3c/output/server/_libs/_3.mjs (273 B)
+  ├─ .eve/builds/mvqigpaa-15ae16ad-bcf6-402c-ae28-24944caeed3c/output/server/_libs/_30.mjs (268 B)
+  ├─ .eve/builds/mvqigpaa-15ae16ad-bcf6-402c-ae28-24944caeed3c/output/server/_libs/_31.mjs (267 B)
+  ├─ .eve/builds/mvqigpaa-15ae16ad-bcf6-402c-ae28-24944caeed3c/output/server/_libs/_32.mjs (251 B)
+  ├─ .eve/builds/mvqigpaa-15ae16ad-bcf6-402c-ae28-24944caeed3c/output/server/_libs/_33.mjs (308 B)
+  ├─ .eve/builds/mvqigpaa-15ae16ad-bcf6-402c-ae28-24944caeed3c/output/server/_libs/_34.mjs (252 B)
+  ├─ .eve/builds/mvqigpaa-15ae16ad-bcf6-402c-ae28-24944caeed3c/output/server/_libs/_35.mjs (289 B)
+  ├─ .eve/builds/mvqigpaa-15ae16ad-bcf6-402c-ae28-24944caeed3c/output/server/_libs/_36.mjs (307 B)
+  ├─ .eve/builds/mvqigpaa-15ae16ad-bcf6-402c-ae28-24944caeed3c/output/server/_libs/_37.mjs (307 B)
+  ├─ .eve/builds/mvqigpaa-15ae16ad-bcf6-402c-ae28-24944caeed3c/output/server/_libs/_38.mjs (311 B)
+  ├─ .eve/builds/mvqigpaa-15ae16ad-bcf6-402c-ae28-24944caeed3c/output/server/_libs/_39.mjs (290 B)
+  ├─ .eve/builds/mvqigpaa-15ae16ad-bcf6-402c-ae28-24944caeed3c/output/server/_libs/_4.mjs (312 B)
+  ├─ .eve/builds/mvqigpaa-15ae16ad-bcf6-402c-ae28-24944caeed3c/output/server/_libs/_5.mjs (270 B)
+  ├─ .eve/builds/mvqigpaa-15ae16ad-bcf6-402c-ae28-24944caeed3c/output/server/_libs/_6.mjs (294 B)
+  ├─ .eve/builds/mvqigpaa-15ae16ad-bcf6-402c-ae28-24944caeed3c/output/server/_libs/_7.mjs (244 B)
+  ├─ .eve/builds/mvqigpaa-15ae16ad-bcf6-402c-ae28-24944caeed3c/output/server/_libs/_8.mjs (241 B)
+  ├─ .eve/builds/mvqigpaa-15ae16ad-bcf6-402c-ae28-24944caeed3c/output/server/_libs/_9.mjs (241 B)
+  ├─ .eve/builds/mvqigpaa-15ae16ad-bcf6-402c-ae28-24944caeed3c/output/server/_libs/@ai-sdk/gateway+[...].mjs (439 kB)
+  ├─ .eve/builds/mvqigpaa-15ae16ad-bcf6-402c-ae28-24944caeed3c/output/server/_libs/ai.mjs (368 kB)
+  ├─ .eve/builds/mvqigpaa-15ae16ad-bcf6-402c-ae28-24944caeed3c/output/server/_libs/eve.mjs (6.49 MB)
+  ├─ .eve/builds/mvqigpaa-15ae16ad-bcf6-402c-ae28-24944caeed3c/output/server/_libs/h3+rou3+srvx.mjs (57.2 kB)
+  ├─ .eve/builds/mvqigpaa-15ae16ad-bcf6-402c-ae28-24944caeed3c/output/server/_libs/hookable.mjs (1.31 kB)
+  ├─ .eve/builds/mvqigpaa-15ae16ad-bcf6-402c-ae28-24944caeed3c/output/server/_libs/ufo.mjs (2.39 kB)
+  ├─ .eve/builds/mvqigpaa-15ae16ad-bcf6-402c-ae28-24944caeed3c/output/server/_libs/undici.mjs (993 kB)
+  ├─ .eve/builds/mvqigpaa-15ae16ad-bcf6-402c-ae28-24944caeed3c/output/server/_libs/unstorage.mjs (22.5 kB)
+  ├─ .eve/builds/mvqigpaa-15ae16ad-bcf6-402c-ae28-24944caeed3c/output/server/_libs/vercel__oidc.mjs (2.79 kB)
+  ├─ .eve/builds/mvqigpaa-15ae16ad-bcf6-402c-ae28-24944caeed3c/output/server/_runtime.mjs (1.73 kB)
+  ├─ .eve/builds/mvqigpaa-15ae16ad-bcf6-402c-ae28-24944caeed3c/output/server/_virtual/skills.json.mjs (301 B)
+  └─ .eve/builds/mvqigpaa-15ae16ad-bcf6-402c-ae28-24944caeed3c/output/server/index.mjs (418 B)
+Σ Total size: 20 MB
+[nitro] ✔ You can preview this build using npx nitro preview
+[BUILD] built output at /tmp/devpost-event-repositories/cultureroute/.output
+npm warn Unknown env config "http-proxy". This will stop working in the next major version of npm.
+
+> cultureroute-devpost-2026@1.0.0 build
+> next build --webpack
+
+▲ Next.js 16.3.8 (webpack)
+✓ Running next.config.ts took 297ms
+
+  Creating an optimized production build ...
+✓ Compiled successfully in 27.3s
+  Running TypeScript ...
+  Finished TypeScript in 5.9s ...
+  Collecting page data using 8 workers ...
+  Generating static pages using 8 workers (0/11) ...
+  Generating static pages using 8 workers (2/11) 
+  Generating static pages using 8 workers (5/11) 
+  Generating static pages using 8 workers (8/11) 
+✓ Generating static pages using 8 workers (11/11) in 1414ms
+  Finalizing page optimization ...
+  Collecting build traces ...
+
+Route (app)
+┌ ○ /
+├ ○ /_not-found
+├ ○ /access
+├ ƒ /api/cultureroute
+├ ƒ /api/health
+├ ƒ /api/internal/cleanup
+├ ƒ /api/lab/runs
+├ ƒ /api/session
+├ ○ /history
+├ ○ /s
+└ ƒ /s/[sessionId]
+
+
+○  (Static)   prerendered as static content
+ƒ  (Dynamic)  server-rendered on demand
+
