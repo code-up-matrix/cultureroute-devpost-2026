@@ -1,0 +1,9 @@
+{
+  "checkedAt": "2026-10-27T15:06:37.349Z",
+  "change": "Use official Vercel OIDC helper to read environment or request-context credentials without exposing the token",
+  "typecheckPassed": true,
+  "testsPassed": 5,
+  "eveBuildPassed": true,
+  "nextBuildPassed": true,
+  "liveAgentFlowVerified": false
+}

@@ -22,7 +22,7 @@ This is controlled hackathon workspace access. Consumer-account recovery, genera
 
 Actual Qloo plus agentic framework integration, MIT source and demonstrable user flow. Event credential and live recording are missing.
 
-Source is prepared and independently verified as recorded in verification.json when present. Cloud deployment, live sponsor proof, video and final submission are still pending. Repository: https://github.com/code-up-matrix/cultureroute-devpost-2026.
+Source is prepared and independently verified as recorded in verification.json when present. Vercel hosting is deployed at https://cultureroute-devpost-2026.vercel.app. Database provisioning, live sponsor proof, video and final submission are still pending. Hosting does not establish production readiness. Repository: https://github.com/code-up-matrix/cultureroute-devpost-2026.
 
 ## Attribution
 
